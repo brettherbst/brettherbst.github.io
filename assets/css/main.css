@@ -2250,7 +2250,7 @@ input, select, textarea {
 			#main > section.one {
 				background-color: #81918E;
 				/* TODO CHANGE THIS IMAGE */
-				background-image: url("/images/Picture1.jpg");
+				background-image: url("https://raw.githubusercontent.com/brettherbst/brettherbst.github.io/main/images/Picture1.jpg");
 				box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.541);
 			}
 
