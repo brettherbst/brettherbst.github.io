@@ -10,6 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 	</head>
 	<body class="is-preload">
 
@@ -58,13 +60,30 @@
 				<!-- Intro -->
 					<section id="top" class="one dark cover">
 						<div class="container">
-
-							<header>
+							<!-- <div class="slider"> -->
+								<header>
+									<h2 class="alt">Hi! I'm <strong>Brett</strong></h2>
+									<p>B.S. in Computer Science @ University of California San Diego <br/>
+									Software Development Engineer @ Flux Power <br/>
+									Software Developer/Former Student Athlete/Outdoorsman</p>
+								</header>
+								<!-- <div class="slide"></div>
+								<div class="slide"></div>
+								<div class="slide"></div>
+								<div class="slide"></div>
+								<div class="slide"></div> -->
+							<!-- </div> -->
+							<!-- </div> -->
+							<!-- <div id="background-carousel"></div> -->
+							<!-- <header>
 								<h2 class="alt">Hi! I'm <strong>Brett</strong></h2>
 								<p>Computer Science Major @ University of California San Diego <br/>
 								Software Development Engineer Intern @ Amazon <br/>
 								Software Developer/Student Athlete/Outdoorsman</p>
 							</header>
+							<div id="background-carousel">
+								<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+							</div> -->
 
 							<!--<footer>
 								<a href="#about" class="button scrolly">Resume</a>
@@ -84,15 +103,11 @@
 
 						<a class="image featured"><img src="images/Hiking.jpg" alt="" /></a>
 
-						<p> I am a 3rd year Computer Science major at UCSD from Corpus Christi, Texas. I have a wide array of software 
-							development experience through my professional, academic, and personal exploration of the field. I have demonstrated
-							experience of excelling in front end, back end, and full stack development. <br/>
-							When I'm not coding, you can usually find me on the lacrosse field practicing for our school team &#x1F94D or 
+						<p> I was born and raised in Corpus Christi, Texas. From there, I went on to receive my B.S. in Computer Science at UCSD. I have a wide array of software 
+							development experience through my professional, academic, and personal exploration of the field. I have demonstrated professional
+							experience of excelling in networking and mobile development. <br/>
+							When I'm not coding, you can usually find me on the lacrosse field &#x1F94D  or 
 							outdoors enjoying nature &#x26FA 
-							<!-- TODO MOVE THIS: <br>
-							Joining and dedicating most of my free time to the team was probably one of the best decisions I've made in college, 
-							and has taught me most of what I know about personal development, time management, and growth both as a person and as 
-							an athlete. -->
 						</p>
 
 					</div>
@@ -110,7 +125,7 @@
 								as I could in the professional field in order for me to be prepared to take on any challenge I face in industry.
 								Here are my experiences as a professional software developer.
 							</p>
-							<h3><strong>Click on a given company to learn what I did there!</strong> <br></h3>
+							<h3><strong>Click on any logo to learn about my time there!</strong> <br></h3>
 							<br>
 
 							<div class="row">
@@ -130,7 +145,7 @@
 									<img src="images/UCSD_CSE_Logo.jpg" alt="" />
 									<header>
 										<h3>UCSD CSE Department</h3>
-										<h4>March 2021-March 2022 <br/>
+										<h4>March 2021-June 2023 <br/>
 											Computer Science Tutor
 										</h4>
 									</header>
@@ -209,6 +224,46 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/slider.js"></script>
+
+
+		<!-- <script>
+			// Wait for the document to be ready
+			document.addEventListener("DOMContentLoaded", function () {
+				// Initialize the Swiper carousel
+				var mySwiper = new Swiper(".background-carousel", {
+					// Specify the desired carousel options
+					loop: true,
+					autoplay: {
+						delay: 3000, // Adjust the delay between slides (in milliseconds)
+					},
+					// Add your images as slide backgrounds
+					slidesPerView: 1,
+					spaceBetween: 0,
+					effect: "fade",
+						adeEffect: {
+					crossFade: true,
+					},
+					// Add your images as CSS background images
+					// You can add more images to the array as needed
+					// Adjust the URLs to point to your own images
+					slides: [
+						{
+						backgroundImage:
+							'url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fnature%2F&psig=AOvVaw2WEhTbA35lAYFg-lh3yPSc&ust=1684967076352000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjipNK9jP8CFQAAAAAdAAAAABAE")',
+						},
+						{
+						backgroundImage:
+							'url("images/Picture2.jpg")',
+						},
+						{
+						backgroundImage:
+							'url("Hiking.jpg")',
+						},
+					],
+				});
+			});
+		</script> -->
 
 	</body>
 </html>
